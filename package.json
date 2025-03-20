@@ -7,7 +7,8 @@
     "install": "cd portfolio && npm install",
     "dev": "cd portfolio && npm run dev",
     "build": "cd portfolio && npm run build",
-    "start": "cd portfolio && npm run start"
+    "start": "cd portfolio && npm run start",
+    "vercel-build": "cd portfolio && npm run build"
   },
   "author": "",
   "license": "MIT"
