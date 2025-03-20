@@ -2,5 +2,18 @@
   "version": 2,
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "portfolio/.next",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "builds": [
+    {
+      "src": "portfolio/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/portfolio/$1"
+    }
+  ]
 } 

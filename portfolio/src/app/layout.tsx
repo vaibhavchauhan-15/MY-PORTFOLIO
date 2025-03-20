@@ -27,7 +27,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vaibhavchauhan-portfolio.vercel.app'),
+  metadataBase: new URL('https://relaxed-moonbeam-c4cae7.netlify.app'),
   title: 'Vaibhav Chauhan | Data Scientist & ML Engineer',
   description: 'Portfolio of Vaibhav Chauhan - Data Scientist and Machine Learning Engineer specializing in data analysis, visualization, and AI solutions',
   keywords: ['data science', 'machine learning', 'python', 'portfolio', 'Vaibhav Chauhan', 'AI'],
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://vaibhavchauhan-portfolio.vercel.app',
+    url: 'https://relaxed-moonbeam-c4cae7.netlify.app',
     title: 'Vaibhav Chauhan | Data Scientist & ML Engineer',
     description: 'Experienced Data Scientist with expertise in Python, ML, and data visualization',
     siteName: 'Vaibhav Chauhan Portfolio',
