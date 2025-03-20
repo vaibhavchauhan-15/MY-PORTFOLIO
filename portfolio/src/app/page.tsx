@@ -1107,6 +1107,97 @@ export default function Home() {
 
       {/* Resume Section */}
       <ResumeSection />
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20">
+        <AISectionHeading
+          subtext="Let's connect and discuss how we can work together"
+        >
+          Get in Touch
+        </AISectionHeading>
+        
+        <div className="max-w-4xl mx-auto px-4">
+          <AICard className="p-8">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent1">
+                  Contact Information
+                </h3>
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <FaEnvelope className="text-primary" />
+                    <a 
+                      href="mailto:vaibhavchauhan.contactme@gmail.com"
+                      className="hover:text-primary transition-colors"
+                    >
+                      vaibhavchauhan.contactme@gmail.com
+                    </a>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <FaLinkedin className="text-primary" />
+                    <a 
+                      href="https://www.linkedin.com/in/vaibhav-chauhan-15"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors"
+                    >
+                      LinkedIn Profile
+                    </a>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <FaTwitter className="text-primary" />
+                    <a 
+                      href="https://x.com/VaibhavCh_15"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors"
+                    >
+                      Twitter Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent1">
+                  Quick Connect
+                </h3>
+                <p className="mb-4 text-gray-600 dark:text-gray-300">
+                  Feel free to reach out for collaborations, opportunities, or just to say hello!
+                </p>
+                <AIButton 
+                  icon="robot"
+                  onClick={() => window.location.href = 'mailto:vaibhavchauhan.contactme@gmail.com'}
+                >
+                  Send Email
+                </AIButton>
+              </div>
+            </div>
+          </AICard>
+        </div>
+      </section>
+      {/* End Contact Section */}
+      
+      {/* Footer */}
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 1 }}
+        className="absolute bottom-10 z-10"
+      >
+        <motion.a 
+          href="#about" 
+          className="flex flex-col items-center text-textDark dark:text-textLight hover:text-primary dark:hover:text-primary transition-colors"
+          whileHover={{ y: -3 }}
+        >
+          <span className="mb-2 font-mono text-sm">Explore More</span>
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+          >
+            <FaArrowDown className="text-xl" />
+          </motion.div>
+        </motion.a>
+      </motion.div>
     </div>
   );
 } 

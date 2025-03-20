@@ -9,6 +9,7 @@ const nextConfig = {
         hostname: 'images.unsplash.com',
       },
     ],
+    domains: ['vercel.com'],
     unoptimized: true
   },
   typescript: {
@@ -16,7 +17,9 @@ const nextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true
-  }
+  },
+  assetPrefix: '',
+  basePath: ''
 };
 
 module.exports = nextConfig; 

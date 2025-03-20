@@ -113,11 +113,12 @@ export default function Navbar() {
               <Link href="/" className="flex-shrink-0 flex items-center">
                 <div className="relative w-10 h-10 mr-3 overflow-hidden rounded-full border-2 border-primary shadow-md">
                   <Image
-                    src="/logo.png"
+                    src="/images/logo.jpg"
                     alt="Logo"
                     fill
                     sizes="2.5rem"
                     className="object-cover"
+                    priority
                   />
                 </div>
                 <span className="text-xl font-bold text-textDark dark:text-textLight">
