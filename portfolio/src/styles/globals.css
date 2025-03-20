@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 31, 41, 55; /* textDark */
+  --background-start-rgb: 255, 255, 255; /* bgLight */
+  --background-end-rgb: 249, 250, 251; /* light */
+  
+  /* Adding custom properties for animations */
+  --transition-standard: 0.3s ease;
+  --transition-smooth: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 243, 244, 246; /* textLight */
+    --background-start-rgb: 15, 23, 42; /* bgDark */
+    --background-end-rgb: 17, 24, 39; /* dark */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  @apply dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-gray-500;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-textDark dark:text-textLight;
+  }
+  
+  p {
+    @apply text-textDark dark:text-textLight;
+  }
+
+  /* Smooth transitions for dark mode */
+  html {
+    @apply transition-colors duration-300;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-primary text-white rounded-xl hover:shadow-glow 
+           transition-all duration-300 transform hover:-translate-y-1 font-medium;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border-2 border-primary text-primary dark:text-white 
+           rounded-xl hover:bg-primary hover:text-white dark:hover:bg-primary 
+           transition-all duration-300 transform hover:-translate-y-1 font-medium;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28;
+  }
+  
+  .heading-xl {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-textDark dark:text-textLight
+           bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent1 dark:from-accent1 dark:to-primary;
+  }
+  
+  .heading-lg {
+    @apply text-3xl sm:text-4xl font-bold text-textDark dark:text-textLight
+           relative after:content-[''] after:absolute after:w-24 after:h-1 after:bg-primary
+           after:bottom-0 after:left-0 pb-3 mb-2;
+  }
+  
+  .heading-lg-center {
+    @apply text-3xl sm:text-4xl font-bold text-textDark dark:text-textLight text-center
+           relative after:content-[''] after:absolute after:w-24 after:h-1 after:bg-primary
+           after:bottom-0 after:left-1/2 after:-translate-x-1/2 pb-3 mb-2;
+  }
+  
+  .heading-md {
+    @apply text-2xl sm:text-3xl font-semibold text-textDark dark:text-textLight;
+  }
+  
+  .card {
+    @apply bg-cardLight dark:bg-cardDark rounded-2xl shadow-custom-light dark:shadow-custom-dark 
+           border border-borderLight dark:border-borderDark hover:shadow-lg
+           transition-all duration-300 overflow-hidden;
+  }
+  
+  .card-hoverable {
+    @apply card transform hover:-translate-y-2 hover:shadow-xl;
+  }
+  
+  .text-default {
+    @apply text-textDark dark:text-textLight;
+  }
+  
+  .text-muted {
+    @apply text-gray-600 dark:text-gray-400;
+  }
+  
+  /* Glass effect components */
+  .glass {
+    @apply bg-white bg-opacity-10 dark:bg-gray-900 dark:bg-opacity-20 backdrop-filter backdrop-blur-lg
+           border border-white border-opacity-20 dark:border-gray-800;
+  }
+  
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent1;
+  }
+  
+  /* Custom animations */
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-2;
+  }
+  
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+  
+  /* Enhanced skill bar */
+  .skill-bar {
+    @apply h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden relative;
+  }
+  
+  .skill-progress {
+    @apply absolute top-0 left-0 h-full bg-gradient-to-r from-primary to-accent1;
+  }
+  
+  /* Grid patterns */
+  .bg-pattern {
+    @apply bg-grid-pattern bg-repeat;
+  }
+}
+
+/* 3D Transforms */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.translate-z-10 {
+  transform: translateZ(10px);
+}
+
+.translate-z-20 {
+  transform: translateZ(20px);
+}
+
+.translate-z-30 {
+  transform: translateZ(30px);
+}
+
+.translate-z-40 {
+  transform: translateZ(40px);
+}
+
+.rotate-y-10 {
+  transform: rotateY(10deg);
+}
+
+.rotate-x-10 {
+  transform: rotateX(10deg);
+}
+
+/* 3D Card */
+.card-3d {
+  @apply card transform-style-3d shadow-xl transition-all duration-300;
+  transform: perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1);
+}
+
+.card-3d:hover {
+  transform: perspective(1000px) rotateX(5deg) rotateY(5deg) scale3d(1.05, 1.05, 1.05);
+  @apply shadow-glow;
+}
+
+/* Floating animation for 3D elements */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateZ(0);
+  }
+  50% {
+    transform: translateY(-10px) translateZ(20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Glowing border */
+.border-glow {
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.5);
+  @apply border-2 border-primary;
+}
+
+/* 3D text */
+.text-3d {
+  text-shadow: 0px 1px 0px rgba(255,255,255,.5),
+               0px 2px 0px rgba(255,255,255,.2),
+               0px 3px 5px rgba(0,0,0,.2);
+  @apply font-bold tracking-wider;
+} 

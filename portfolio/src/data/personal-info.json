@@ -1,0 +1,146 @@
+{
+  "name": "Vaibhav Chauhan",
+  "title": "Aspiring Data Scientist",
+  "description": "An aspiring data scientist with a strong foundation in computer science, programming, and analytical problem-solving. Proficient in Python, MySQL, and basic machine learning. Experienced in developing interactive dashboards and data-driven solutions.",
+  "education": {
+    "university": "Parul University, Vadodara",
+    "degree": "B.Tech in Computer Science and Engineering",
+    "period": "2022 - Present"
+  },
+  "contact": {
+    "email": "vaibhavchauhan.contactme@gmail.com",
+    "phone": "9867732204",
+    "linkedin": "https://www.linkedin.com/in/vaibhavchauhan15/",
+    "github": "https://github.com/vaibhavchauhan-15"
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming"
+    },
+    {
+      "name": "C++",
+      "category": "Programming"
+    },
+    {
+      "name": "C",
+      "category": "Programming"
+    },
+    {
+      "name": "Pandas",
+      "category": "Data Analysis"
+    },
+    {
+      "name": "NumPy",
+      "category": "Data Analysis"
+    },
+    {
+      "name": "Matplotlib",
+      "category": "Data Analysis"
+    },
+    {
+      "name": "Seaborn",
+      "category": "Data Analysis"
+    },
+    {
+      "name": "Scikit-learn",
+      "category": "Data Analysis"
+    },
+    {
+      "name": "Power BI",
+      "category": "Tools"
+    },
+    {
+      "name": "Git",
+      "category": "Tools"
+    },
+    {
+      "name": "Excel",
+      "category": "Tools"
+    },
+    {
+      "name": "MySQL",
+      "category": "Database"
+    },
+    {
+      "name": "Data Structures",
+      "category": "Programming"
+    },
+    {
+      "name": "Algorithms",
+      "category": "Programming"
+    },
+    {
+      "name": "Tableau",
+      "category": "Tools"
+    },
+    {
+      "name": "Data Visualization",
+      "category": "Data Analysis"
+    }
+  ],
+  "workExperience": {
+    "title": "Student Analytics Dashboard Developer",
+    "company": "Parul University",
+    "period": "March 2024",
+    "description": [
+      "Designed and developed an interactive student analytics dashboard using Power BI and SQL.",
+      "Provided actionable insights on student performance, attendance, and engagement patterns.",
+      "Utilized SQL queries to aggregate and analyze MySQL database data for reporting.",
+      "Implemented data cleaning and preprocessing techniques to ensure accuracy in visualization and reporting."
+    ]
+  },
+  "projects": [
+    {
+      "title": "Student Analytics Dashboard",
+      "description": "A dynamic Power BI dashboard to analyze student grades and attendance trends. Improved student performance tracking through interactive visualizations.",
+      "imageUrl": "/images/projects/student-analytics.jpg",
+      "demoUrl": "#",
+      "githubUrl": "https://github.com/vaibhavchauhan-15"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Python for Data Science",
+      "issuer": "Coursera",
+      "date": "May 2023"
+    },
+    {
+      "title": "Introduction to Machine Learning",
+      "issuer": "Udemy",
+      "date": "April 2024"
+    },
+    {
+      "title": "Data Structure and Algorithm",
+      "issuer": "Codehelp (Love Babbar)",
+      "date": "October 2023"
+    }
+  ],
+  "workshops": [
+    {
+      "title": "Tableau Workshop",
+      "organizer": "Parul University",
+      "date": "December 2024"
+    },
+    {
+      "title": "Machine Learning Workshop",
+      "organizer": "Parul University",
+      "date": "March 2024"
+    },
+    {
+      "title": "Cybersecurity Seminar",
+      "organizer": "Parul University",
+      "date": "February 2023"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "name": "Hindi",
+      "proficiency": "Fluent"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Data Visualization",
+    "issuer": "Certification Authority",
+    "date": "February 2023",
+    "description": "Advanced data visualization techniques using modern tools and libraries for creating impactful visual representations of complex datasets.",
+    "url": "/documents/certificates/Data Visualisation.pdf",
+    "imageUrl": "/images/certificates/data-visualization-cert.jpg"
+  },
+  {
+    "title": "Data Analytics",
+    "issuer": "Professional Institute",
+    "date": "January 2023",
+    "description": "Comprehensive training in data analytics methodologies, statistical analysis, and business intelligence tools for extracting actionable insights.",
+    "url": "/documents/certificates/vaibhav_data_analytics.pdf",
+    "imageUrl": "/images/certificates/data-analytics-cert.jpg"
+  },
+  {
+    "title": "Tableau Workshop",
+    "issuer": "Tableau",
+    "date": "January 2023",
+    "description": "Hands-on workshop on creating interactive dashboards and data visualizations using Tableau, focusing on best practices and advanced features.",
+    "url": "/documents/certificates/tableau_workshop_certificate.jpg",
+    "imageUrl": "/images/certificates/tableau-workshop-cert.jpg"
+  },
+  {
+    "title": "Python for Data Science",
+    "issuer": "Coursera",
+    "date": "May 2023",
+    "description": "Comprehensive course covering Python libraries for data analysis including Pandas, NumPy, and data visualization tools.",
+    "url": "#",
+    "imageUrl": "/images/certificates/python-data-science.jpg"
+  },
+  {
+    "title": "Introduction to Machine Learning",
+    "issuer": "Udemy",
+    "date": "April 2024",
+    "description": "Fundamentals of machine learning algorithms, model training, evaluation, and implementation using Scikit-learn.",
+    "url": "#",
+    "imageUrl": "/images/certificates/machine-learning-intro.jpg"
+  },
+  {
+    "title": "Data Structure and Algorithm",
+    "issuer": "Codehelp (Love Babbar)",
+    "date": "October 2023",
+    "description": "In-depth study of data structures and algorithms with practical implementation in C++ and problem-solving techniques.",
+    "url": "#",
+    "imageUrl": "/images/certificates/data-structures-algorithms.jpg"
+  }
+]

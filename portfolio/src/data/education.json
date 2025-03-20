@@ -1,0 +1,20 @@
+[
+  {
+    "degree": "B.Tech in Computer Science and Engineering",
+    "institution": "Parul University, Vadodara",
+    "period": "2022 - Present",
+    "description": "Studying computer science fundamentals, data structures, algorithms, and specialized courses in data science and analytics."
+  },
+  {
+    "degree": "12th Grade (Science)",
+    "institution": "VAANI Vidyalaya",
+    "period": "2020 - 2022",
+    "description": "Completed higher secondary education with focus on science subjects including mathematics, physics, and computer science."
+  },
+  {
+    "degree": "10th Grade",
+    "institution": "IDEA English High School",
+    "period": "2019 - 2020",
+    "description": "Completed secondary education with distinction in mathematics and science."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Tableau Workshop",
+    "organizer": "Parul University",
+    "date": "December 2024",
+    "description": "Hands-on workshop on creating interactive dashboards and data visualizations using Tableau."
+  },
+  {
+    "title": "Machine Learning Workshop",
+    "organizer": "Parul University",
+    "date": "March 2024",
+    "description": "Practical workshop on implementing machine learning models for real-world problems."
+  },
+  {
+    "title": "Cybersecurity Seminar",
+    "organizer": "Parul University",
+    "date": "February 2023",
+    "description": "Seminar on cybersecurity fundamentals, threats, and best practices for secure software development."
+  }
+]

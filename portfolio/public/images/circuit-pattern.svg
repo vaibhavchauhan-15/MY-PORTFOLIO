@@ -1,0 +1,37 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main grid lines -->
+  <path d="M10,10 L90,10 M90,10 L90,90 M90,90 L10,90 M10,90 L10,10" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  
+  <!-- Connection lines -->
+  <path d="M30,10 L30,30 M30,30 L70,30 M70,30 L70,10" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  <path d="M30,90 L30,70 M30,70 L70,70 M70,70 L70,90" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  <path d="M10,50 L30,50 M70,50 L90,50" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  
+  <!-- Circuit nodes -->
+  <circle cx="30" cy="30" r="2" fill="currentColor" fill-opacity="0.2" />
+  <circle cx="70" cy="30" r="2" fill="currentColor" fill-opacity="0.2" />
+  <circle cx="30" cy="70" r="2" fill="currentColor" fill-opacity="0.2" />
+  <circle cx="70" cy="70" r="2" fill="currentColor" fill-opacity="0.2" />
+  <circle cx="30" cy="50" r="2" fill="currentColor" fill-opacity="0.2" />
+  <circle cx="70" cy="50" r="2" fill="currentColor" fill-opacity="0.2" />
+  
+  <!-- Additional circuit elements -->
+  <path d="M50,10 L50,25 M50,25 L60,25 M60,25 L60,40 M60,40 L75,40 M75,40 L75,60 M75,60 L60,60 M60,60 L60,75 M60,75 L50,75 M50,75 L50,90" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  <path d="M30,50 L50,50 M50,50 L50,25" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  
+  <!-- Diagonal traces -->
+  <path d="M10,10 L25,25 M90,10 L75,25 M10,90 L25,75 M90,90 L75,75" stroke="currentColor" stroke-opacity="0.08" stroke-width="1" fill="none" />
+  
+  <!-- Microchip-like elements -->
+  <rect x="40" y="40" width="20" height="20" stroke="currentColor" stroke-opacity="0.15" stroke-width="1" fill="currentColor" fill-opacity="0.05" />
+  <path d="M45,40 L45,35 M50,40 L50,35 M55,40 L55,35" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  <path d="M45,60 L45,65 M50,60 L50,65 M55,60 L55,65" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  <path d="M40,45 L35,45 M40,50 L35,50 M40,55 L35,55" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  <path d="M60,45 L65,45 M60,50 L65,50 M60,55 L65,55" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="none" />
+  
+  <!-- Small junction boxes -->
+  <rect x="28" y="28" width="4" height="4" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="currentColor" fill-opacity="0.05" />
+  <rect x="68" y="28" width="4" height="4" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="currentColor" fill-opacity="0.05" />
+  <rect x="28" y="68" width="4" height="4" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="currentColor" fill-opacity="0.05" />
+  <rect x="68" y="68" width="4" height="4" stroke="currentColor" stroke-opacity="0.1" stroke-width="1" fill="currentColor" fill-opacity="0.05" />
+</svg> 

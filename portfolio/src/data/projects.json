@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Student Analytics Dashboard",
+    "description": "A dynamic Power BI dashboard to analyze student grades and attendance trends. Improved student performance tracking through interactive visualizations.",
+    "imageUrl": "/images/projects/student-analytics.jpg",
+    "demoUrl": "#",
+    "githubUrl": "https://github.com/vaibhavchauhan-15"
+  },
+  {
+    "title": "Data Visualization Portfolio",
+    "description": "A collection of data visualization projects using Python libraries like Matplotlib, Seaborn, and Pandas for analyzing and presenting complex datasets.",
+    "imageUrl": "/images/projects/data-visualization.jpg",
+    "demoUrl": "#",
+    "githubUrl": "https://github.com/vaibhavchauhan-15"
+  },
+  {
+    "title": "Machine Learning Models",
+    "description": "Implementation of various machine learning algorithms using Scikit-learn for classification, regression, and clustering problems.",
+    "imageUrl": "/images/projects/machine-learning.jpg",
+    "demoUrl": "#",
+    "githubUrl": "https://github.com/vaibhavchauhan-15"
+  },
+  {
+    "title": "SQL Database Project",
+    "description": "Designed and implemented a relational database system with MySQL for efficient data storage and retrieval with optimized queries.",
+    "imageUrl": "/images/projects/sql-database.jpg",
+    "demoUrl": "#",
+    "githubUrl": "https://github.com/vaibhavchauhan-15"
+  },
+  {
+    "title": "Python Data Analysis",
+    "description": "Data analysis projects using Python to clean, transform, and analyze datasets to extract meaningful insights and patterns.",
+    "imageUrl": "/images/projects/python-analysis.jpg",
+    "demoUrl": "#",
+    "githubUrl": "https://github.com/vaibhavchauhan-15"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A modern, responsive portfolio website built with Next.js, TypeScript, and TailwindCSS featuring dark mode and smooth animations.",
+    "imageUrl": "/images/projects/portfolio-website.jpg",
+    "demoUrl": "#",
+    "githubUrl": "https://github.com/vaibhavchauhan-15"
+  }
+]
